@@ -21,7 +21,7 @@
         "mailgun/mailgun-php": "^3.0",
         "nyholm/psr7": "^1.2",
         "paymentrails/php-sdk": "^2.0",
-        "paypal/paypal-checkout-sdk": "1.0.1",
+        "escrow/escrow-checkout-sdk": "1.0.1",
         "stripe/stripe-php": "^7.22",
         "tymon/jwt-auth": "^1.0.0-rc.2",
         "unicodeveloper/laravel-paystack": "^1.0"

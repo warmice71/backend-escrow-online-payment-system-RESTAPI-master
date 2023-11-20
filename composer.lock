@@ -2357,21 +2357,21 @@
             "time": "2019-11-11T17:03:26+00:00"
         },
         {
-            "name": "paypal/paypal-checkout-sdk",
+            "name": "escrow/escrow-checkout-sdk",
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/paypal/Checkout-PHP-SDK.git",
+                "url": "https://github.com/escrow/Checkout-PHP-SDK.git",
                 "reference": "ed6a55075448308b87a8b59dcb7fedf04a048cb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paypal/Checkout-PHP-SDK/zipball/ed6a55075448308b87a8b59dcb7fedf04a048cb1",
+                "url": "https://api.github.com/repos/escrow/Checkout-PHP-SDK/zipball/ed6a55075448308b87a8b59dcb7fedf04a048cb1",
                 "reference": "ed6a55075448308b87a8b59dcb7fedf04a048cb1",
                 "shasum": ""
             },
             "require": {
-                "paypal/paypalhttp": "1.0.0"
+                "escrow/escrowhttp": "1.0.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7"
@@ -2379,43 +2379,43 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PayPalCheckoutSdk\\": "lib/PayPalCheckoutSdk",
+                    "escrowCheckoutSdk\\": "lib/escrowCheckoutSdk",
                     "Sample\\": "samples/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "https://github.com/paypal/Checkout-PHP-SDK/blob/master/LICENSE"
+                "https://github.com/escrow/Checkout-PHP-SDK/blob/master/LICENSE"
             ],
             "authors": [
                 {
-                    "name": "PayPal",
-                    "homepage": "https://github.com/paypal/Checkout-PHP-SDK/contributors"
+                    "name": "escrow",
+                    "homepage": "https://github.com/escrow/Checkout-PHP-SDK/contributors"
                 }
             ],
-            "description": "PayPal's PHP SDK for Checkout REST APIs",
-            "homepage": "http://github.com/paypal/Checkout-PHP-SDK/",
+            "description": "escrow's PHP SDK for Checkout REST APIs",
+            "homepage": "http://github.com/escrow/Checkout-PHP-SDK/",
             "keywords": [
                 "checkout",
                 "orders",
                 "payments",
-                "paypal",
+                "escrow",
                 "rest",
                 "sdk"
             ],
             "time": "2019-11-07T23:16:44+00:00"
         },
         {
-            "name": "paypal/paypalhttp",
+            "name": "escrow/escrowhttp",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/paypal/paypalhttp_php.git",
+                "url": "https://github.com/escrow/escrowhttp_php.git",
                 "reference": "1ad9b846a046f09d6135cbf2cbaa7701bbc630a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paypal/paypalhttp_php/zipball/1ad9b846a046f09d6135cbf2cbaa7701bbc630a3",
+                "url": "https://api.github.com/repos/escrow/escrowhttp_php/zipball/1ad9b846a046f09d6135cbf2cbaa7701bbc630a3",
                 "reference": "1ad9b846a046f09d6135cbf2cbaa7701bbc630a3",
                 "shasum": ""
             },
@@ -2429,7 +2429,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PayPalHttp\\": "lib/PayPalHttp"
+                    "escrowHttp\\": "lib/escrowHttp"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2438,8 +2438,8 @@
             ],
             "authors": [
                 {
-                    "name": "PayPal",
-                    "homepage": "https://github.com/paypal/paypalhttp_php/contributors"
+                    "name": "escrow",
+                    "homepage": "https://github.com/escrow/escrowhttp_php/contributors"
                 }
             ],
             "time": "2019-11-06T21:27:12+00:00"

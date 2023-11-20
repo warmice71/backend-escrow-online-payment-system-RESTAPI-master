@@ -15,15 +15,15 @@ class CreatePaymentsTable extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('intent_id', 100)->nullable();            
+            $table->string('intent_id', 100)->nullable();
             $table->unsignedBigInteger('item_id');
-            $table->string('paypal_order_id', 100)->nullable();
-            $table->enum('payment_option', ['stripe', 'paypal']);
+            $table->string('escrow_order_id', 100)->nullable();
+            $table->enum('payment_option', ['stripe', 'escrow']);
             $table->string('currency', 5);
             $table->float('amount_paid', 8, 2);
             $table->float('item_price', 8, 2);
             $table->float('amount_received', 8, 2);
-            $table->float('commission', 8, 2);            
+            $table->float('commission', 8, 2);
             $table->unsignedBigInteger('seller_id');
             $table->char('seller_email', 100);
             $table->unsignedBigInteger('buyer_id');
